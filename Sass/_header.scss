@@ -1,5 +1,5 @@
 .header{
-    background-color: $secondaryBackgroundcolor;
+    background-color: rgba($color: $secondaryBackgroundcolor, $alpha: 0.9);
     
     &__navbar{
         height: 50px;
@@ -31,7 +31,7 @@
 
              
 
-                &:first-child{
+                & #current{
                     color: $primaryTextcolor ;
 
                     &:hover{
@@ -45,11 +45,11 @@
                     color: inherit;
                     text-transform: uppercase;
                     font-size: 17px;
-                    font-weight: bold;
                     cursor: pointer;
-
-
-                    
+                }
+                & :hover{
+                    font-weight: bold;
+                    opacity: 0.9;
                 }
             }
         }

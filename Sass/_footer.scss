@@ -1,6 +1,6 @@
 footer{
     width: 100%;
-    background-color: $secondaryBackgroundcolor;
+    background-color: rgba($color: $secondaryBackgroundcolor, $alpha: 0.9);
 
     & div{
         padding-top: 30px;
