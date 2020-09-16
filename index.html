@@ -7,6 +7,7 @@
     <meta name="keywords" content="IT, training, school, bootcamp">
     <meta name="author" content="Emre Kurt">
     <title>Clarusway</title>
+    <link rel="stylesheet" href="./Sass/style.css">
 </head>
 <body>
     <header class="header">
@@ -15,21 +16,22 @@
                 <span>Clarusway</span> Web Design
             </div>
             <ul class="header__navbar--links">
-                <li>Home</li>
-                <li>About</li>
-                <li>Services</li>
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">About</a></li>
+                <li> <a href="#">Services</a> </li>
             </ul>
         </nav>
-        <section class="header__mainpart">
+        <section class="header__mainpart" style="background-image: url(./images/showcase.jpg);">
             <h1>Professional Web Design</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt iste laudantium maiores minus, iure, quisquam quo aspernatur adipisci distinctio recusandae aliquam cupiditate blanditiis.</p>
         </section>
         <section class="header__bottompart">
             <p>Subscribe To Our Newsletter</p>
-         <form action="">
-             <input type="email" name="email" id="mail">
-             <input type="submit" name="submit" id="submitbuttoun" value="Subscribe">
+         <form action="result.html">
+             <input type="email" name="email" id="mail" placeholder="Enter Email...">
+             <input type="submit" name="submit" id="submitbutton" value="Subscribe">
          </form>   
+         <div style="clear: both;"></div>
         </section>
     </header>
     <main>
@@ -41,19 +43,21 @@
             </div>
             <div class="cources__design">
                  <img src="./images/logo_css.png" alt="CSS3 Styling">
-                 <h3>HTML5 Markup</h3>
+                 <h3>CSS3 Styling</h3>
                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga sint provident eos beatae adipisci quaerat.</p>    
             </div>
             <div class="cources__design"> 
                 <img src="./images/logo_brush.png" alt="Graphic Design">
-                <h3>HTML5 Markup</h3>
+                <h3>Graphic Design</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga sint provident eos beatae adipisci quaerat.</p>
             </div>
         </section>
     </main>
     <footer>
-        <p>Clarusway Web Design, Copyright © 2020</p>
-        <img src="./images/claruswaylogo.png" alt="Clarusway Logo">
+        <div>
+            <p>Clarusway Web Design, Copyright © 2020</p>
+            <img src="./images/claruswaylogo.png" alt="Clarusway Logo">
+        </div>
     </footer>
 </body>
 </html>
