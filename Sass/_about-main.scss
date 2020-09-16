@@ -1,0 +1,57 @@
+.aboutuscontain{
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 20px;
+
+    &__leftpart{
+        width: 65%;
+        float: left;
+
+        &__title{
+            padding-bottom: 30px;
+        }
+
+        &__paragraph{
+            font-size: 15px;
+            line-height: 25px;
+
+            & span{
+                margin-top: 20px;
+                color: $secondaryTextcolor;
+                padding: 15px ;
+                display: block;
+                background-color: rgba($color: $secondaryBackgroundcolor, $alpha: 0.9);
+            }
+
+        }
+
+    }
+
+    &__rightpart{
+        width: 30%;
+        display: block;
+        float: right;
+        line-height: 25px;
+        font-size: 15px;
+        
+        
+
+        &__goal{
+            width: 90%;
+            margin: auto;
+            margin-top: 20px;
+            padding: 20px ;
+            color: $secondaryTextcolor;
+            display: block;
+            background-color: rgba($color: $secondaryBackgroundcolor, $alpha: 0.9);
+            padding: 30px;
+
+            & span{
+                display: block;
+                font-weight: bold;
+                font-size: 20px;
+            }
+        }
+    }
+}
