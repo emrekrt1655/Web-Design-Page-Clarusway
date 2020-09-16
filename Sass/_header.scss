@@ -1,0 +1,119 @@
+.header{
+    background-color: $secondaryBackgroundcolor;
+    
+    &__navbar{
+        height: 50px;
+        padding: 30px;
+        color: $secondaryTextcolor;
+        border-bottom:$primaryTextcolor 3px solid ; 
+
+        &--title{
+            display: block;
+            float: left;
+            font-size: 2em;
+            font-weight: bold;
+            margin-left: 70px;
+
+            & span{
+                color: $primaryTextcolor;
+            }
+        }
+
+        &--links{
+            list-style-type: none;
+            float: right;
+            margin-right: 100px; 
+            margin-top: 15px;
+
+            & li {
+                display: inline;
+                margin-left: 30px;
+
+             
+
+                &:first-child{
+                    color: $primaryTextcolor ;
+
+                    &:hover{
+                        color: inherit;
+                    }
+                }
+
+
+                & a{
+                    text-decoration: none;
+                    color: inherit;
+                    text-transform: uppercase;
+                    font-size: 17px;
+                    font-weight: bold;
+                    cursor: pointer;
+
+
+                    
+                }
+            }
+        }
+    }
+
+    &__mainpart{
+        height: 300px;
+        padding-top: 40px ;
+        padding-bottom: 40px ;
+
+        & h1{
+            padding-top: 60px;
+            padding-bottom: 10px;
+            text-align: center;
+            color: $secondaryTextcolor;
+            font-size: 55px;
+        }
+
+        & p{
+            margin: auto;
+            text-align: center;
+            color: $secondaryTextcolor;
+            font-size: 20px;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            width: 90%;
+            line-height: 40px;
+        }
+    }
+
+    &__bottompart{
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        color: $secondaryTextcolor;
+        padding: 30px;
+
+        & p{
+            float: left;
+            font-size: 1.5em;
+            font-weight: bold;
+            padding-top: 10px;
+            
+        }
+
+        & form{
+            float: right;
+            margin: auto;
+
+            & #mail{
+                padding: 4px;
+                height: 25px;
+                width: 250px;
+            }
+
+            & #submitbutton{
+                height: 38px;
+                background-color: $primaryTextcolor;
+                padding-left: 20px;
+                padding-right: 20px;
+                color: $secondaryTextcolor;
+            }
+            
+        }
+    }
+
+}

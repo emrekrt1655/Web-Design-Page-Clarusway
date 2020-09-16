@@ -1,0 +1,18 @@
+footer{
+    width: 100%;
+    background-color: $secondaryBackgroundcolor;
+
+    & div{
+        padding-top: 30px;
+    }
+
+    & p{
+        text-align: center;
+        color: $secondaryTextcolor;  
+    }
+
+    & img{
+        display: block;
+        margin: auto;
+    }
+}
