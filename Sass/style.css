@@ -157,11 +157,13 @@ main {
   text-align: center;
   margin-right: 10px;
   line-height: 25px;
+  font-size: 16px;
 }
 
 .cources__design h3 {
   padding-top: 30px;
   padding-bottom: 30px;
+  font-size: 30px;
 }
 
 footer {
@@ -321,5 +323,99 @@ footer img {
   width: -moz-fit-content;
   width: fit-content;
   font-size: 15px;
+}
+
+/* Smartphones */
+@media only screen and (min-device-width: 361px) and (max-device-width: 767px) {
+  .header__navbar {
+    width: 90%;
+    height: 10vw;
+    padding: 10px;
+  }
+  .header__navbar--title {
+    font-size: 4vw;
+    margin-left: 80px;
+    padding-bottom: 5px;
+  }
+  .header__navbar--links {
+    margin-top: 0px;
+    float: right;
+  }
+  .header__navbar--links li {
+    display: inline;
+    margin-left: 20px;
+  }
+  .header__navbar--links li a {
+    font-size: 2vw;
+  }
+  .header__mainpart {
+    height: 180px;
+  }
+  .header__mainpart h1 {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    font-size: 6vw;
+  }
+  .header__mainpart p {
+    font-size: 3vw;
+    width: 80%;
+    line-height: 20px;
+  }
+  .header__bottompart {
+    padding: 10px;
+    margin: auto;
+  }
+  .header__bottompart p {
+    float: left;
+    font-size: 2.5vw;
+    padding-bottom: 10px;
+  }
+  .header__bottompart form {
+    float: right;
+    margin-top: 5px;
+  }
+  .header__bottompart form #mail {
+    padding: 2px;
+    height: 15px;
+    width: 150px;
+  }
+  .header__bottompart form #submitbutton {
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .cources img {
+    width: 10vw;
+  }
+  .cources__design {
+    line-height: 20px;
+    font-size: 2vw;
+  }
+  .cources__design h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 3vw;
+  }
+  footer div {
+    padding-top: 20px;
+  }
+  footer p {
+    font-size: 2vw;
+  }
+  footer img {
+    width: 30vw;
+  }
+  .servicescontain__rightpart {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 871px) {
+  .cources__design {
+    line-height: 20px;
+    font-size: 1.8vw;
+  }
 }
 /*# sourceMappingURL=style.css.map */
